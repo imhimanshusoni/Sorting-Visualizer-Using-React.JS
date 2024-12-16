@@ -1,0 +1,38 @@
+#array-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+#array-container p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem 2rem;
+  margin: 4px;
+}
+
+.array-container-buttons {
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(254, 197, 21);
+}
+
+.array-container-buttons:hover {
+  background-color: #000;
+}
+
+#user-arr-size {
+  width: 4rem;
+  padding: 5px 8px 7px;
+  background: #000;
+  color: #fff;
+}

@@ -1,0 +1,35 @@
+#selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem 2rem;
+  background-color: #232f3e;
+  flex-wrap: wrap;
+  padding: 0.4rem;
+}
+
+.selector-item {
+  padding: 0 1rem;
+  --bg-color: #232f3e;
+  --text-color: #fff;
+}
+
+.selector-item a {
+  display: block;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  outline: 1px solid var(--bg-color);
+}
+
+.selector-item a:hover {
+  outline: 1px solid var(--text-color);
+}
+
+.selector-item.active {
+  --bg-color: #fff;
+  --text-color: #232f3e;
+}

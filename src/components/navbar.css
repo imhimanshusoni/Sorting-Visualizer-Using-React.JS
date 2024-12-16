@@ -1,0 +1,16 @@
+#navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #131921;
+}
+
+#navbar h1 {
+  color: #fff;
+}
+
+#navbar a {
+  text-decoration: none;
+}
